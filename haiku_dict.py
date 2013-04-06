@@ -18,6 +18,6 @@ cues_for_reader = dict_of_mad_libs[haiku]
 
 for index in range(len(cues_for_reader)):
     response = raw_input("Enter " + cues_for_reader[index] + ": ")
-    completed_haiku = haiku.replace("WORD#" + str(index), response.strip())
+    haiku = haiku.replace("WORD#" + str(index), response.strip())
 
-print completed_haiku
+print haiku
