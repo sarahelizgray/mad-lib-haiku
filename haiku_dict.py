@@ -13,7 +13,9 @@ DICT_OF_MAD_LIBS = {
 
             }
 
-haiku = random.choice(DICT_OF_MAD_LIBS.keys())
+all_haikus = DICT_OF_MAD_LIBS.keys()
+
+haiku = random.choice(all_haikus)
 cues_for_reader = DICT_OF_MAD_LIBS[haiku]
 
 for index in range(len(cues_for_reader)):
