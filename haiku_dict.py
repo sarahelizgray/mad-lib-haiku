@@ -13,8 +13,8 @@ dict_of_mad_libs = {"Haikus are WORD#0, but sometimes they don't make WORD#1, WO
 haiku = random.choice(dict_of_mad_libs.keys())
 cues_for_reader = dict_of_mad_libs[haiku]
 
-for i in range(len(cues_for_reader)):
-    response = raw_input("Enter " + cues_for_reader[i] + ": ")
-    haiku = haiku.replace("WORD#" + str(i), response.strip())
+for index in range(len(cues_for_reader)):
+    response = raw_input("Enter " + cues_for_reader[index] + ": ")
+    haiku = haiku.replace("WORD#" + str(index), response.strip())
 
 print haiku

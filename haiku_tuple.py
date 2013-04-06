@@ -16,9 +16,9 @@ mad_lib = random.choice(list_of_mad_libs)
 haiku = mad_lib[0]
 cues_for_reader = mad_lib[1]
 
-for i in range(len(cues_for_reader)):
-    response = raw_input("Enter " + cues_for_reader[i] + ": ")
-    haiku = haiku.replace("WORD#" + str(i), response.strip())
+for index in range(len(cues_for_reader)):
+    response = raw_input("Enter " + cues_for_reader[index] + ": ")
+    haiku = haiku.replace("WORD#" + str(index), response.strip())
 
 print haiku
 
