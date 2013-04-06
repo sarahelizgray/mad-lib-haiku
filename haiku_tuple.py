@@ -1,7 +1,7 @@
 import random
 
 mad_lib_0 = ("Haikus are WORD#0, but sometimes they don't make WORD#1, WORD#2",
-            ["a one syllable adjective", "a one syllable noun", "a five syllable noun"])
+            ["a one syllable verb", "a one syllable noun", "a five syllable noun"])
 
 mad_lib_1 = ("Out of WORD#0, We wish to WORD#1 the whole WORD#2, But we never will.",
             ["a three syllable noun", "a one syllable verb", "a one syllable noun"])
