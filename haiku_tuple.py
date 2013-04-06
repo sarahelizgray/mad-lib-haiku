@@ -21,7 +21,3 @@ for index in range(len(cues_for_reader)):
     haiku = haiku.replace("WORD#" + str(index), response.strip())
 
 print haiku
-
-
-
-
