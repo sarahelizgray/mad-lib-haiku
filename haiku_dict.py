@@ -13,7 +13,6 @@ dict_of_mad_libs = {
 
             }
 
-
 haiku = random.choice(dict_of_mad_libs.keys())
 cues_for_reader = dict_of_mad_libs[haiku]
 
